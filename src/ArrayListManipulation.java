@@ -6,7 +6,7 @@ public class ArrayListManipulation {
     public static void main(String[] args) {
         System.out.println("---- Array List Manipulation ----");
 
-        ArrayList cars = new ArrayList<String>();
+        ArrayList<String> cars = new ArrayList<String>();
 
         cars.add("Mercedes");
         System.out.println(cars);
@@ -15,8 +15,8 @@ public class ArrayListManipulation {
         cars.set(0, "Jaguar"); // replaces the item
         System.out.println(cars);
 
-        cars.remove(0); // removing at index
         cars.removeFirst(); // removing first item
+        cars.remove(2); // removing at index
         cars.clear(); // clearing up all the items
 
         cars.add("Volvo");
