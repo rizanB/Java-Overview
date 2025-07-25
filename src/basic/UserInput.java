@@ -1,4 +1,5 @@
-import java.lang.foreign.SymbolLookup;
+package basic;
+
 import java.util.Scanner;
 
 public class UserInput {

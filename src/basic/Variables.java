@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
+package basic;
 
 public class Variables {
     public static void main(String[] args) {
@@ -18,7 +17,7 @@ public class Variables {
         System.out.println(isStudent);
 
 
-        //  Reference Variables
+        //  Reference basic.Variables
         String name = "Roshan";
         System.out.println(name);
 

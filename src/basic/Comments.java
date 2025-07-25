@@ -1,6 +1,6 @@
 package basic;
 
-public class Main {
+public class Comments {
     public static void main(String[] args) {
         // This is single line comment
 

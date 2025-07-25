@@ -1,3 +1,5 @@
+package basic;
+
 public class Formatting {
     public static void main(String[] args) {
         System.out.println("---Using printf() to format strings");
