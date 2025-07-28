@@ -1,5 +1,7 @@
 package OOP;
 
+// Reflections are the way of creating class objects
+
 public class ReflectionsExample {
     Class truck = Class.forName("OOP.Vehicle");
 
