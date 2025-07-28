@@ -2,9 +2,9 @@ package OOP;
 
 public class PolymorphismExample {
     public static void main(String[] args) {
-        Car2 car2 = new Car2();
-        Bike bike = new Bike();
-        Boat boat = new Boat();
+        Vehicle2 car2 = new Car2();
+        Vehicle2 bike = new Bike();
+        Vehicle2 boat = new Boat();
 
         car2.go();
         bike.go();
