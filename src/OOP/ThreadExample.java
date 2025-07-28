@@ -7,6 +7,7 @@ public class ThreadExample {
         Scanner scanner = new Scanner(System.in);
         MyRunnable myRunnable = new MyRunnable();
         Thread thread = new Thread(myRunnable);
+        thread.setDaemon(true); // more like a watchdog
         thread.start();
 
         System.out.println("Enter your name: ");
@@ -30,6 +31,7 @@ class MyRunnable implements Runnable {
 
             if(i==5) {
                 System.out.println("Time's up!");
+                System.exit(0);
             }
 
         }
