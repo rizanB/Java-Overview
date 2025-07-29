@@ -18,7 +18,7 @@ public class ArrayListManipulation {
         System.out.println(cars);
 
         cars.removeFirst(); // removing first item
-        cars.remove(2); // removing at index
+        cars.remove(0); // removing at index
         cars.clear(); // clearing up all the items
 
         cars.add("Volvo");
@@ -30,9 +30,9 @@ public class ArrayListManipulation {
         System.out.println("Sorted list: "+cars);
 
         // can be inferred to List although its ArrayList() itself
-        List<String> fruits = new ArrayList<String>();
+        List<String> fruits = cars;
         System.out.println(fruits);
-
+        System.out.println("type of fruits: " + fruits.getClass().getSimpleName());
     }
 
 }
